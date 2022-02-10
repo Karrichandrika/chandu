@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int num1, num2;
+    int sum, sub,increment,decrement;
+     printf("Enter any two numbers: ");
+    scanf("%d%d", &num1, &num2);
+    sum =num1 + num2;
+    sub = num1 - num2;
+    increment = num1+1;
+    decrement = num1-1;
+    printf("sum = %d\n", sum);
+    printf("sub = %d\n", sub);
+    printf("increment = %d\n", increment);
+    printf("decrement = %d\n", decrement);
+
+
+    return 0; 
+}

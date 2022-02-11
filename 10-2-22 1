@@ -1,0 +1,21 @@
+#include< stdio.h >
+int main()
+{
+ 
+    FILE *f;  
+    char a[20];
+ 
+    printf("Enter file name to create :");
+    scanf("%s",a);
+ 
+    f=fopen(a,"w");
+
+    if(f==NULL)
+    {
+        printf("File does not created!!!");
+        exit(0); 
+    }
+ 
+    printf("File created successfully.");
+    return 0;
+}
